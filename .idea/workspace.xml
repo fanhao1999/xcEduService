@@ -306,7 +306,7 @@
     <property name="SearchEverywhereHistoryKey" value="XcTa&#9;FILE&#9;file://H:/xcEdu/xcEduService/xc-framework-model/src/main/java/com/xuecheng/framework/domain/task/XcTaskHis.java&#10;UserJwt&#9;PSI&#9;JAVA://com.xuecheng.auth.service.UserJwt&#10;JwtHelper&#9;PSI&#9;JAVA://org.springframework.security.jwt.JwtHelper&#10;JwtH&#9;PSI&#9;JAVA://org.springframework.security.jwt.JwtHeader&#10;Runna&#9;PSI&#9;JAVA://java.lang.Runnable&#10;Thread&#9;PSI&#9;JAVA://java.lang.Thread&#10;PageService&#9;FILE&#9;file://H:/xcEdu/xcEduService/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/CmsPageService.java&#10;CmsCode&#9;FILE&#9;file://H:/xcEdu/xcEduService/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553445009873" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553445251980" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
