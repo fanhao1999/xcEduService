@@ -1,0 +1,39 @@
+server:
+  port: 31200
+spring:
+  application:
+    name: xc-service-manage-course
+  datasource:
+    druid:
+      url: jdbc:mysql://192.168.159.128:3306/xc_course?characterEncoding=utf-8&useSSL=false
+      username: root
+      password: 123456
+      driverClassName: com.mysql.jdbc.Driver
+      initialSize: 5  #初始建立连接数量
+      minIdle: 5  #最小连接数量
+      maxActive: 20 #最大连接数量
+      maxWait: 10000  #获取连接最大等待时间，毫秒
+      testOnBorrow: true #申请连接时检测连接是否有效
+      testOnReturn: false #归还连接时检测连接是否有效
+      timeBetweenEvictionRunsMillis: 60000 #配置间隔检测连接是否有效的时间（单位是毫秒）
+      minEvictableIdleTimeMillis: 300000  #连接在连接池的最小生存时间（毫秒）
+  jackson:
+    default-property-inclusion: non_null
+pagehelper:
+  helper-dialect: mysql
+eureka:
+  client:
+    register-with-eureka: true #服务注册，是否将自己注册到Eureka服务中
+    fetch-registry: true #服务发现，是否从Eureka中获取注册信息
+    service-url: #Eureka客户端与Eureka服务端进行交互的地址，多个中间用逗号分隔
+      defaultZone: ${EUREKA_SERVER:http://eureka01:50101/eureka/,http://eureka02:50102/eureka/}
+  instance:
+    prefer-ip-address: true #将自己的ip地址注册到Eureka服务中
+    ip-address: ${IP_ADDRESS:127.0.0.1}
+course-publish:
+  siteId: 5a751fab6abb5044e0d19ea1
+  pageWebPath: /course/detail/
+  pagePhysicalPath: H:/xcEdu/xcEduUI/xc-ui-pc-static-portal/course/detail/
+  templateId: 5ad9a24d68db5239b8fef199
+  dataUrl: http://127.0.0.1:31200/course/courseview/
+  previewUrl: http://www.xuecheng.com/cms/preview/
