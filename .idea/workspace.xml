@@ -1,268 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41c2ab26-e89e-4c29-9363-c0b6565d09e1" name="Default Changelist" comment="项目基本功能实现">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsConfigModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsPageParam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsSite.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsSiteServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsTemplate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/ext/CmsPageExt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/ext/CmsTemplateExt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/request/QueryPageRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CmsCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CmsPageResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CmsPostPageResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CoursePreviewResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/GenerateHtmlResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/CourseBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/CourseIndex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/CourseMarket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/CourseOff.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/CoursePic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/CoursePre.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/CoursePub.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/Teachplan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/TeachplanMedia.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/TeachplanMediaPub.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/ext/CategoryNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/ext/CategoryParameter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/ext/CourseInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/ext/CourseView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/ext/TeachplanExt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/ext/TeachplanNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/ext/TeachplanParameter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/request/CourseListRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/response/AddCourseResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/response/CourseCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/response/CoursePublishResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/response/DeleteCourseResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/filesystem/FileSystem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/filesystem/response/FileSystemCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/filesystem/response/UploadFileResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/learning/XcLearningCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/learning/XcLearningList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/learning/response/GetMediaResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/learning/response/LearningCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/media/MediaFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/media/MediaFileProcess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/media/MediaFileProcess_m3u8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/media/MediaVideoCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/media/MediaVideoCourseSimple.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/media/request/QueryMediaFileRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/media/response/CheckChunkResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/media/response/MediaCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/media/response/MediaCourseResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/media/response/MediaFileResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/order/XcOrders.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/order/XcOrdersDetail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/order/XcOrdersPay.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/order/request/CreateOrderRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/order/request/weixinPayInformRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/order/response/CreateOrderResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/order/response/OrderCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/order/response/OrderResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/order/response/PayOrderResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/order/response/PayQrcodeResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/portalview/PreViewCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/portalview/PreViewCourseMedia.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/portalview/ViewCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/portalview/ViewCourseMedia.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/portalview/response/PortalViewCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/report/ReportCompany.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/report/ReportCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/search/CourseSearchParam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/system/SysDictionary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/system/SysDictionaryValue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/task/XcTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/task/XcTaskHis.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/test/UserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcCompany.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcCompanyUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcPermission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcTeacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcUserRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/ext/AuthToken.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/ext/UserBasicInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/ext/UserToken.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/ext/UserTokenStore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/ext/XcMenuExt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/ext/XcUserExt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/request/LoginRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/response/AuthCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/response/JwtResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/response/LoginResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/response/UcenterCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/target/xc-framework-model.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-govern-center/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-govern-center/target/classes/com/xuecheng/govern/center/GovernCenterApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-govern-gateway/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-govern-gateway/target/classes/com/xuecheng/govern/gateway/GatewayApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-govern-gateway/target/classes/com/xuecheng/govern/gateway/filter/LoginFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-govern-gateway/target/classes/com/xuecheng/govern/gateway/service/AuthService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-govern-gateway/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/auth/AuthControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsConfigControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/SysDicthinaryControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/config/Swagger2Configuration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/course/CategoryControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/course/CourseControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/learning/CourseLearningControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/media/MediaFileControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/media/MediaUploadControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/search/EsCourseControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/ucenter/UcenterControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/ﬁlesystem/FileSystemControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/target/xc-service-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-base-filesystem/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-base-filesystem/target/classes/com/xuecheng/filesystem/FileSystemApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-base-filesystem/target/classes/com/xuecheng/filesystem/config/FastdfsProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-base-filesystem/target/classes/com/xuecheng/filesystem/config/UploadProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-base-filesystem/target/classes/com/xuecheng/filesystem/controller/FileSystemController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-base-filesystem/target/classes/com/xuecheng/filesystem/dao/FileSystemRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-base-filesystem/target/classes/com/xuecheng/filesystem/service/FileSystemService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-base-filesystem/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xuecheng/learning/LearningApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xuecheng/learning/client/CourseSearchClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xuecheng/learning/config/RabbitMQConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xuecheng/learning/controller/CourseLearningController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xuecheng/learning/dao/XcLearningCourseRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xuecheng/learning/dao/XcTaskHisRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xuecheng/learning/mq/ChooseCourseTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/com/xuecheng/learning/service/LearningService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-learning/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms-client/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms-client/target/classes/com/xuecheng/manage_cms_client/ManageCmsClientApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms-client/target/classes/com/xuecheng/manage_cms_client/config/MongoConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms-client/target/classes/com/xuecheng/manage_cms_client/config/RabbitmqConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms-client/target/classes/com/xuecheng/manage_cms_client/dao/CmsPageRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms-client/target/classes/com/xuecheng/manage_cms_client/mq/ConsumerPostPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms-client/target/classes/com/xuecheng/manage_cms_client/service/PageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms-client/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/ManageCmsApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/config/MongoConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/config/RabbitmqConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/config/ResourceServerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsConfigController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPagePreviewController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/SysDictionaryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/dao/CmsConfigRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/dao/CmsPageRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/dao/CmsSiteRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/dao/CmsTemplateRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/dao/SysDictionaryRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/CmsConfigService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/CmsPageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/SysdictionaryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/publickey.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/service/CmsPageServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/test/CmsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/ManageCourseApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/client/CmsPageClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/config/CoursePublishProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/config/ResourceServerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/controller/CategoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/controller/CourseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/CategoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/CourseBaseRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/CourseMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/CourseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/CourseMarketRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/CoursePicRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/CoursePubRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/TeachplanMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/TeachplanMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/TeachplanMediaPubRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/TeachplanMediaRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/TeachplanRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/exception/CustomExceptionCatch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/service/CategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/service/CourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/publickey.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/test-classes/com/xuecheng/manage_course/dao/TestDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/target/classes/com/xuecheng/manage_media_process/ManageMediaProcessorApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/target/classes/com/xuecheng/manage_media_process/config/RabbitMQConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/target/classes/com/xuecheng/manage_media_process/dao/MediaFileRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/target/classes/com/xuecheng/manage_media_process/mq/MediaProcessTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/target/test-classes/com/xuecheng/manage_media_process/TestProcessBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/com/xuecheng/manage_media/ManageMediaApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/com/xuecheng/manage_media/config/RabbitMQConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/com/xuecheng/manage_media/config/UploadProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/com/xuecheng/manage_media/controller/MediaFileController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/com/xuecheng/manage_media/controller/MediaUploadController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/com/xuecheng/manage_media/dao/MediaFileRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/com/xuecheng/manage_media/service/MediaFileService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/com/xuecheng/manage_media/service/MediaUploadService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/com/xuecheng/manage_media/service/MediaUploadService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/test-classes/com/xuecheng/manage_media/TestUploadFile$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/test-classes/com/xuecheng/manage_media/TestUploadFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-order/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-order/target/classes/com/xuecheng/order/ManageOrderApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-order/target/classes/com/xuecheng/order/config/RabbitMQConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-order/target/classes/com/xuecheng/order/dao/XcTaskHisRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-order/target/classes/com/xuecheng/order/dao/XcTaskRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-order/target/classes/com/xuecheng/order/mq/ChooseCourseTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-order/target/classes/com/xuecheng/order/service/TaskService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-order/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xuecheng/search/SearchApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xuecheng/search/config/ElasticsearchConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xuecheng/search/controller/EsCourseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xuecheng/search/service/EsCourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/UcenterAuthApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/client/UserClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/config/AuthorizationServerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/config/CustomUserAuthenticationConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/config/WebSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/controller/AuthController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/UserDetailsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/UserJwt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/config/druid-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/xc.keystore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/test-classes/com/xuecheng/auth/AuthTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/test-classes/com/xuecheng/auth/JwtTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/com/xuecheng/ucenter/UcenterApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/com/xuecheng/ucenter/controller/UcenterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/com/xuecheng/ucenter/dao/XcCompanyUserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/com/xuecheng/ucenter/dao/XcMenuMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/com/xuecheng/ucenter/dao/XcMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/com/xuecheng/ucenter/dao/XcUserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/com/xuecheng/ucenter/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-ucenter/target/test-classes/com/xuecheng/ucenter/dao/XcMenuMapperTest.class" afterDir="false" />
+    <list default="true" id="41c2ab26-e89e-4c29-9363-c0b6565d09e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/xc-framework-parent/target/" />
     <ignored path="$PROJECT_DIR$/xc-framework-utils/target/" />
@@ -314,9 +55,10 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="231" />
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="3" />
           <entry key="iml" value="2" />
           <entry key="java" value="1493" />
+          <entry key="md" value="1" />
           <entry key="txt" value="4" />
           <entry key="xml" value="220" />
           <entry key="yml" value="213" />
@@ -327,7 +69,8 @@
           <entry key="CLASS" value="231" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="JAVA" value="1493" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="220" />
           <entry key="YAML" value="213" />
         </counts>
@@ -562,7 +305,7 @@
     <property name="SearchEverywhereHistoryKey" value="XcTa&#9;FILE&#9;file://H:/xcEdu/xcEduService/xc-framework-model/src/main/java/com/xuecheng/framework/domain/task/XcTaskHis.java&#10;UserJwt&#9;PSI&#9;JAVA://com.xuecheng.auth.service.UserJwt&#10;JwtHelper&#9;PSI&#9;JAVA://org.springframework.security.jwt.JwtHelper&#10;JwtH&#9;PSI&#9;JAVA://org.springframework.security.jwt.JwtHeader&#10;Runna&#9;PSI&#9;JAVA://java.lang.Runnable&#10;Thread&#9;PSI&#9;JAVA://java.lang.Thread&#10;PageService&#9;FILE&#9;file://H:/xcEdu/xcEduService/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/CmsPageService.java&#10;CmsCode&#9;FILE&#9;file://H:/xcEdu/xcEduService/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553444214386" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553444505747" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -864,7 +607,7 @@
       <workItem from="1553232396721" duration="29753000" />
       <workItem from="1553320679725" duration="6660000" />
       <workItem from="1553328837057" duration="15246000" />
-      <workItem from="1553403327304" duration="24260000" />
+      <workItem from="1553403327304" duration="24580000" />
     </task>
     <task id="LOCAL-00001" summary="项目基本功能实现">
       <created>1553442731312</created>
@@ -880,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553442972716</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="项目基本功能实现">
+      <created>1553444484479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553444484479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -916,7 +666,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="339830000" />
+    <option name="totallyTimeSpent" value="340150000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1018,16 +768,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/interceptor/FeignClientInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="72" lean-forward="true" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
@@ -1384,15 +1124,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xc-framework-common/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-common/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
