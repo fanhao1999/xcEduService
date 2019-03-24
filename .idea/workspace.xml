@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41c2ab26-e89e-4c29-9363-c0b6565d09e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="41c2ab26-e89e-4c29-9363-c0b6565d09e1" name="Default Changelist" comment="项目基本功能实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-govern-center/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-govern-center/target/classes/com/xuecheng/govern/center/GovernCenterApplication.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/xc-framework-parent/target/" />
     <ignored path="$PROJECT_DIR$/xc-framework-utils/target/" />
@@ -305,7 +306,7 @@
     <property name="SearchEverywhereHistoryKey" value="XcTa&#9;FILE&#9;file://H:/xcEdu/xcEduService/xc-framework-model/src/main/java/com/xuecheng/framework/domain/task/XcTaskHis.java&#10;UserJwt&#9;PSI&#9;JAVA://com.xuecheng.auth.service.UserJwt&#10;JwtHelper&#9;PSI&#9;JAVA://org.springframework.security.jwt.JwtHelper&#10;JwtH&#9;PSI&#9;JAVA://org.springframework.security.jwt.JwtHeader&#10;Runna&#9;PSI&#9;JAVA://java.lang.Runnable&#10;Thread&#9;PSI&#9;JAVA://java.lang.Thread&#10;PageService&#9;FILE&#9;file://H:/xcEdu/xcEduService/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/CmsPageService.java&#10;CmsCode&#9;FILE&#9;file://H:/xcEdu/xcEduService/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553444505747" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553445009873" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -607,7 +608,7 @@
       <workItem from="1553232396721" duration="29753000" />
       <workItem from="1553320679725" duration="6660000" />
       <workItem from="1553328837057" duration="15246000" />
-      <workItem from="1553403327304" duration="24580000" />
+      <workItem from="1553403327304" duration="24833000" />
     </task>
     <task id="LOCAL-00001" summary="项目基本功能实现">
       <created>1553442731312</created>
@@ -666,7 +667,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340150000" />
+    <option name="totallyTimeSpent" value="340403000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
