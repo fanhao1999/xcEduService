@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41c2ab26-e89e-4c29-9363-c0b6565d09e1" name="Default Changelist" comment="项目基本功能实现">
+    <list default="true" id="41c2ab26-e89e-4c29-9363-c0b6565d09e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-govern-center/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-govern-center/target/classes/com/xuecheng/govern/center/GovernCenterApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-common/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-common/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-parent/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-parent/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-parent/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-utils/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-utils/README.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/xc-framework-parent/target/" />
     <ignored path="$PROJECT_DIR$/xc-framework-utils/target/" />
@@ -56,10 +62,10 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="231" />
-          <entry key="gitignore" value="3" />
+          <entry key="gitignore" value="5" />
           <entry key="iml" value="2" />
           <entry key="java" value="1493" />
-          <entry key="md" value="1" />
+          <entry key="md" value="4" />
           <entry key="txt" value="4" />
           <entry key="xml" value="220" />
           <entry key="yml" value="213" />
@@ -70,8 +76,8 @@
           <entry key="CLASS" value="231" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="JAVA" value="1493" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="XML" value="220" />
           <entry key="YAML" value="213" />
         </counts>
@@ -80,6 +86,7 @@
         <counts>
           <entry key="dummy" value="26" />
           <entry key="java" value="34293" />
+          <entry key="md" value="1" />
           <entry key="txt" value="11" />
           <entry key="xml" value="1039" />
           <entry key="yml" value="795" />
@@ -88,6 +95,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="34292" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="37" />
           <entry key="SQL" value="83" />
           <entry key="Spring Data QL" value="1" />
@@ -98,7 +106,20 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="19">
+                <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xuecheng/learning/controller/CourseLearningController.java" />
         <option value="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/learning/response/LearningCode.java" />
         <option value="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/xc-service-manage-course/pom.xml" />
@@ -184,6 +204,7 @@
         <option value="$PROJECT_DIR$/xc-service-manage-order/src/main/java/com/xuecheng/order/dao/XcTaskHisRepository.java" />
         <option value="$PROJECT_DIR$/xc-service-manage-order/src/main/java/com/xuecheng/order/service/TaskService.java" />
         <option value="$PROJECT_DIR$/xc-service-manage-order/src/main/java/com/xuecheng/order/mq/ChooseCourseTask.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -306,7 +327,7 @@
     <property name="SearchEverywhereHistoryKey" value="XcTa&#9;FILE&#9;file://H:/xcEdu/xcEduService/xc-framework-model/src/main/java/com/xuecheng/framework/domain/task/XcTaskHis.java&#10;UserJwt&#9;PSI&#9;JAVA://com.xuecheng.auth.service.UserJwt&#10;JwtHelper&#9;PSI&#9;JAVA://org.springframework.security.jwt.JwtHelper&#10;JwtH&#9;PSI&#9;JAVA://org.springframework.security.jwt.JwtHeader&#10;Runna&#9;PSI&#9;JAVA://java.lang.Runnable&#10;Thread&#9;PSI&#9;JAVA://java.lang.Thread&#10;PageService&#9;FILE&#9;file://H:/xcEdu/xcEduService/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/CmsPageService.java&#10;CmsCode&#9;FILE&#9;file://H:/xcEdu/xcEduService/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553445251980" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553445833406" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -608,7 +629,7 @@
       <workItem from="1553232396721" duration="29753000" />
       <workItem from="1553320679725" duration="6660000" />
       <workItem from="1553328837057" duration="15246000" />
-      <workItem from="1553403327304" duration="24833000" />
+      <workItem from="1553403327304" duration="25613000" />
     </task>
     <task id="LOCAL-00001" summary="项目基本功能实现">
       <created>1553442731312</created>
@@ -631,7 +652,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553444484479</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="项目基本功能实现">
+      <created>1553445056823</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553445056823</updated>
+    </task>
+    <task id="LOCAL-00005" summary="项目基本功能实现">
+      <created>1553445291140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553445291140</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -667,7 +702,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340403000" />
+    <option name="totallyTimeSpent" value="341183000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -680,6 +715,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25938338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -689,7 +725,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.49934897" weight="0.3711048" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.49934897" weight="0.37021276" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.29745042" />
@@ -769,13 +805,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/XcOauth2Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1128,20 +1157,28 @@
     <entry file="file://$PROJECT_DIR$/xc-framework-common/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/xc-framework-common/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="40" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
